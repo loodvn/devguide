@@ -5,12 +5,12 @@ Increase Test Coverage
 
 Python development follows a practice that all semantic changes and additions
 to the language and :abbr:`stdlib (standard library)` are accompanied by
-appropriate unit tests. Unfortunately Python was in existence for a long time
+appropriate unit tests. Unfortunately, Python was in existence for a long time
 before the practice came into effect. This has left chunks of the stdlib
 untested which is not a desirable situation to be in.
 
 A good, easy way to become acquainted with Python's code and to help out is to
-help increase the test coverage for Python's stdlib. Ideally we would like to
+help increase the test coverage for Python's stdlib. Ideally, we would like to
 have 100% coverage, but any increase is a good one. Do realize, though, that
 getting 100% coverage is not always possible. There could be platform-specific
 code that simply will not execute for you, errors in the output, etc. You can
@@ -94,7 +94,7 @@ On :ref:`most <mac-python.exe>` Mac OS X systems, replace :file:`./python`
 with :file:`./python.exe`.  On Windows, use :file:`python.bat`.
 
 You can now use python without the ./ for the rest of these instructions, as
-long as your venv is activated. For more info on venv see `Virtual Envrionment
+long as your venv is activated. For more info on venv see `Virtual Environment
 <https://docs.python.org/3/tutorial/venv.html>`_ documentation.
 
 If this does not work for you for some reason, you should try using the
@@ -168,7 +168,7 @@ Branch Coverage
 '''''''''''''''
 
 For the truly daring, you can use another powerful feature of coverage.py:
-branch coverage. Testing every possible branch path through code, while a great
+branch coverage. Testing every possible branch path through the code, while a great
 goal to strive for, is a secondary goal to getting 100% line
 coverage for the entire stdlib (for now).
 
